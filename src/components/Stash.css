@@ -1,0 +1,16 @@
+.stashLayout {
+    margin: 0 auto;
+    display: grid;
+    max-width: 750px;
+    grid-gap: 5px;
+    position: relative;
+    grid-template-columns: repeat(12, 47px);
+    grid-template-rows: repeat(12, 47px);
+    border: 5px solid,
+}
+
+.grid-item {
+    border-width: 2px;
+    border-color: grey;
+    border-style: solid;
+}
